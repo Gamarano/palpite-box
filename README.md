@@ -1,2 +1,54 @@
-# palpite-box
- Primeiro Modulo do curso Fullstack Master - DevPleno
+# PalpiteBox - Semana Fullstack Master
+
+[![HitCount](https://hits.dwyl.com/Gamarano/Gamarano/palpite-box-1.svg)](https://hits.dwyl.com/Gamarano/Gamarano/palpite-box-1)
+
+Este projeto foi construído durante a Semana Fullstack Master do [DevPleno](https://devpleno.com). Uma versão online deste projeto pode ser encontrada em: ????????.
+
+
+## Início
+
+
+
+### Pré-requisitos:
+
+Você precisa do NodeJS e do NPM instalado em sua máquina.
+
+```
+npm install
+npm run dev
+```
+
+## Layout:
+
+Criamos o layout utilizando o Figma. Você pode encontrar o arquivo [aqui](https://www.figma.com/file/cUG7discRczc3J45PgYXwS/PalpiteBox_Thulio?node-id=0%3A1).
+
+## Colocando em produção:
+
+Este projeto pode ser colocado em produção utilizando o Vercel. É necessário criar as variáveis de ambiente para configurar o acesso as planilhas do Google:
+
+```
+SHEET_CLIENT_EMAIL=client email do service credential
+SHEET_PRIVATE_KEY=private key do service credential - lembrar de substituir \n por quebras de linha e de codificar em base 64
+SHEET_DOC_ID=id da planilha
+```
+
+## Construído com:
+
+* [NextJS](https://nextjs.org/) -The React Framework.
+* [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for
+rapidly building custom designs.
+* [Figma](https://figma.com/) - Online prototyping tool.
+* [Google Sheets](https://drive.google.com) - Planilhas online do Google
+
+## Author:
+
+* **Thulio Gamarano** - [LinkedIn](https://www.linkedin.com/in/thulio-gamarano/)
+
+
+## Licença
+
+Este projeto é licenciado sobre a licença MIT - veja [LICENSE.md](LICENSE.md) para mais informações.
+
+## Acknowledgments
+
+* Este projeto foi construído durante a Semana Fullstack Master do [DevPleno](https://devpleno.com).

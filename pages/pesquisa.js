@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 
 const Pesquisa = () => {
   return (
@@ -18,11 +18,7 @@ const Pesquisa = () => {
         <input type = 'text' className = 'p-4 bg-blue-100 block my-2 rounded' />
         <label className = 'font-bold'>Opinião:</label>
         <input type = 'text' className = 'p-4 bg-blue-100 block my-2 rounded' />
-        <label className = 'font-bold'>Qual nota você daria para <br/>
-          esse estabelecimento:</label>
-        <input type = 'text' className = 'p-4 bg-blue-100 block my-2 rounded' />
-        <label className = 'font-bold'>Você indicaria este estabelecimento <br/>
-          para um amigo?</label>
+
         <input type = 'text' className = 'p-4 bg-blue-100 block my-2 rounded' />
       </div>
       <div className = 'text-center my-12'>
