@@ -1,9 +1,10 @@
 import React from 'react'
-import Link from 'next/link'
+import PageTitle from '../components/PageTitle'
 
 const Sobre = () => {
   return (
     <div className = 'pt-6'> 
+      <PageTitle title='Sobre' />
       <h1 className = 'text-center font-bold my-4 text-2xl'>Sobre</h1>
       <p className = 'text-center mb-6'> 
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
